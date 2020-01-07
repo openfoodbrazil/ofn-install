@@ -146,6 +146,15 @@ www.openfoodnetwork.org.za
 za-prod
 
 #------------------------------------------------------------------------------
+# Brazil
+
+[br-prod]
+openfoodbrasil.com.br ansible_host=52.203.235.131
+
+[br:children]
+br-prod
+
+#------------------------------------------------------------------------------
 # Europe
 
 [europe:children]
@@ -161,6 +170,7 @@ de-prod
 [america:children]
 ca-prod
 us-prod
+br-prod
 
 #------------------------------------------------------------------------------
 # Production Servers
@@ -169,6 +179,7 @@ us-prod
 europe
 america
 au-prod
+br-prod
 
 #------------------------------------------------------------------------------
 # Staging Servers
@@ -195,3 +206,4 @@ fr
 de
 be
 za
+br
