@@ -170,6 +170,7 @@ de-prod
 [america:children]
 ca-prod
 us-prod
+br-prod
 
 #------------------------------------------------------------------------------
 # Production Servers
