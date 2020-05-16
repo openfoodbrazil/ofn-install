@@ -151,6 +151,9 @@ za-prod
 [br-prod]
 openfoodbrasil.com.br ansible_host=52.20.5.42
 
+[br-staging]
+ec2-54-242-172-26.compute-1.amazonaws.com ansible_host=54.242.172.26
+
 [br:children]
 br-prod
 
